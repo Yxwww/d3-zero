@@ -1,0 +1,26 @@
+{
+  "name": "d3-zero",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup index.js --file dist/bundle.js --format iife"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yxwww/d3-zero.git"
+  },
+  "author": "Yuxi Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yxwww/d3-zero/issues"
+  },
+  "homepage": "https://github.com/Yxwww/d3-zero#readme",
+  "devDependencies": {
+    "rollup": "^1.21.4"
+  },
+  "dependencies": {
+    "d3": "^5.12.0"
+  }
+}
